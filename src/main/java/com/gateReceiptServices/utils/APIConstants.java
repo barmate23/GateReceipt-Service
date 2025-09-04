@@ -1,0 +1,43 @@
+package com.gateReceiptServices.utils;
+
+public class APIConstants {
+    public static final String BASE_REQUEST = "/api";
+    public static final String SERVICENAME = "/gateReceiptService/v1";
+    public static final String UPDATE_PRINT_STATUS = "/updatePrintStatus";
+    public static final String GET_ASN_PO_DETAILS = "/getAsnPODetails";
+    public static final String GET_TRANSPORT_DETAILS = "/getTransportDetails";
+    public static final String UPDATE_TRANSPORT = "/updateTransport";
+    public static final String UPDATE_ITEM_LINE = "/updateItems";
+    public static final String GET_ASN_PO_ITEM_DETAILS = "/getAsnPoItemDetails";
+    public static final String GET_INVOICE_DETAILS = "/getInVoiceDetails";
+    public static final String GET_QC_CERTIFICATE = "/getQCCertificate";
+    public static final String GET_DOCUMENTS = "/getDocuments";
+    public static final String GET_MATERIAL_CLERK_RECEIPT = "/getMaterialClerkReceipt";
+    public static final String GENERATE_CIN_LABEL = "/generateCinLabel";
+    public static final String GENERATE_GATE_PASS = "/generateGatePass";
+    public static final String UPDATE_INVOICE_DETAILS = "/updateInvoiceDetails";
+    public static final String UPDATE_QC_CERTIFICATE = "/updateQcCertificate";
+    public static final String UPDATE_DOCUMENTS = "/updateDocument";
+    public static final String UPDATE_ASN_PO_ITEM_DETAILS = "/updateAsnPoItemDetails";
+    public static final String UPDATE_BUYER_STATUS = "/updateBuyerStatus";
+    public static final String INVOICE_DET_LOG = "LogId:{} - MaterialClerkService - getInvoiceDetails - UserId:{} - {}";
+    public static final String QC_CERTIFICATE_LOG = "LogId:{} - MaterialClerkService - getQcCertificate - UserId:{} - {}";
+    public static final String DOCUMENT_LOG = "LogId:{} - MaterialClerkService - getDocuments - UserId:{} - {}";
+    public static final String MATERIAL_CLERK_RECEIPT_LOG = "LogId:{} - MaterialClerkService - getMaterialClerkReceipt - UserId:{} - {}";
+    public static final String GENERATE_CIN_LABEL_LOG = "LogId:{} - MaterialClerkService - generateCinLabel - UserId:{} - {}";
+    public static final String GENERATE_GATE_PASS_LOG = "LogId:{} - MaterialClerkService - generateGatePass - UserId:{} - {}";
+    public static final String UPDATE_PRINT_STATUS_LOG = "LogId:{} - MaterialClerkService - updatePrintStatus - UserId:{} - {}";
+    public static final String UPDATE_INVOICE_DETAILS_LOG = "LogId:{} - MaterialClerkService - updateInvoiceDetails - UserId:{} - {}";
+    public static final String UPDATE_QC_CERTIFICATE_LOG = "LogId:{} - MaterialClerkService - updateQcCertificate - UserId:{} - {}";
+    public static final String UPDATE_DOCUMENT_LOG = "LogId:{} - MaterialClerkService - updateDocuments - UserId:{} - {}";
+    public static final String UPDATE_ASN_PO_ITEM_LOG = "LogId:{} - MaterialClerkService - updateAsnPoItemDetails - UserId:{} - {}";
+    public static final String GET_ASN_HEAD_ID = " GET ASN HEAD ID :: ";
+    public static final String GET_PO_HEAD_ID = " GET PO HEAD ID :: ";
+    public static final String GET_ASN_PO_DETAILS_LOG = "LogId:{} - GateSecurityService - getAsnPODetails - UserId:{} - {}";
+    public static final String GET_TRANSPORT_DETAILS_LOG = "LogId:{} - GateSecurityService - getTransportDetails - UserId:{} - {}";
+    public static final String UPDATE_ITEM_DETAILS_LOG = "LogId:{} - GateSecurityService - updateItemDetails - UserId:{} - {}";
+    public static final String UPDATE_TRANSPORT_DETAILS_LOG = "LogId:{} - GateSecurityService - updateTransport - UserId:{} - {}";
+    public static final String UPDATE_BUYER_STATUS_LOG = "LogId:{} - GateSecurityService - updateBuyerStatus - UserId:{} - {}";
+    public static final String RECEIVED = "Received";
+    public final static String QUEUED="QUEUED";
+}
